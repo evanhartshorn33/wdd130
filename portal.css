@@ -1,20 +1,47 @@
-body {
-    background-color: beige;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
-
+a:hover {
+    background-color: darkgray;
+    color: white
+}
 nav {
     display: flex;
+    justify-content: center;
 }
-
-a{
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+a {
     background-color: lightblue;
     color: rgb(71, 68, 69);
     text-decoration: none;
     padding: 10px;
-    margin: 5px
+    margin: 5px;
+    text-align: center;
 }
-
+p {
+    width: 40%;
+    margin: 10px auto;
+    padding: 10px;
+    /* text-align: center; */
+}
     .background {
         background-color: #ccc;
     }
+footer {
+    background-color: lightblue;
+    color: rgb(71, 69, 69)
+
+}
+footer p {
+    text-align: center;
+}
 
