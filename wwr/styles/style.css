@@ -62,3 +62,8 @@ footer p a {
 section[id="hero-msg"] div a {
     background-color: #d9c2a3;
 }
+
+section[class="msg"] a {
+    color: black;
+    background-color: #d9c2a3;
+}
