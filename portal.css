@@ -1,3 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@300&display=swap');
+body {
+    font-family: Roboto, Verdana, sans-serif;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -15,9 +21,12 @@ h1 {
     text-align: center;
 }
 img {
-    width: 50%;
+    width: 60%;
     display: block;
-    margin: 0 auto;
+    margin: 40px auto;
+    padding: 40px;
+    border: 3px solid lightblue;
+    box-sizing: border-box;
 }
 a {
     background-color: lightblue;
@@ -28,14 +37,14 @@ a {
     text-align: center;
 }
 p {
-    width: 40%;
+    width: 60%;
     margin: 10px auto;
     padding: 10px;
-    /* text-align: center; */
+    box-sizing: border-box;
 }
-    .background {
-        background-color: #ccc;
-    }
+.background {
+    background-color: #ccc;
+}
 footer {
     background-color: lightblue;
     color: rgb(71, 69, 69)
