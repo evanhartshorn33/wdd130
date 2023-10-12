@@ -27,6 +27,7 @@ img {
     padding: 40px;
     border: 3px solid lightblue;
     box-sizing: border-box;
+    border-radius: 80px;
 }
 a {
     background-color: lightblue;
@@ -35,6 +36,7 @@ a {
     padding: 10px;
     margin: 5px;
     text-align: center;
+    border-radius: 5px
 }
 p {
     width: 60%;
@@ -53,4 +55,7 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+
 
