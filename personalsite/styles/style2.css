@@ -1,0 +1,129 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up basic styles for the header */
+header {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Align items from left to right */
+    align-items: center; /* Center items vertically */
+}
+
+.logo {
+    width: 100px; /* Adjust logo width */
+    height: auto;
+}
+
+/* Style navigation links */
+nav {
+    flex: 1; /* Allow the navigation to take remaining space */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+
+nav a {
+    margin-left: 20px; /* Add spacing between navigation links */
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the main content area */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main title */
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+/* Style the picture grid */
+.picture-grid-24 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* Style each picture and label */
+.picture {
+    border: 20px solid #ccc;
+    padding: 30px;
+    text-align: center;
+}
+
+.picture img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: gray;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Style footer links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Style social icons */
+.social {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start; /* Align icons from left to right */
+}
+
+.social a {
+    margin-right: 10px;
+    width: 100px; /* Adjust icon width */
+    height: 100px; /* Adjust icon height */
+    display: block;
+}
+
+/* Footer hover effect */
+footer a:hover {
+    background-color: #bd894e;
+    padding: 20px 40px; /* Adjust padding to create the hover effect around the text */
+    border-radius: 10px; /* Optional: Create a rounded border around the hover area */
+}
+
+/* Header hover effect for the navigation links */
+nav a:hover {
+    background-color: #bd894e;
+    padding: 20px 40px; /* Adjust padding to create the hover effect around the text */
+    border-radius: 10px; /* Optional: Create a rounded border around the hover area */
+}
+
+/* Style headers before sets of pictures */
+header h2 {
+    margin-bottom: 20px; /* Adjusted margin for the headers */
+    font-size: 24px; /* Adjusted font size for headers */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
